@@ -1,0 +1,31 @@
+import java.util.*
+public class Empleado{
+  private String NSS;
+  private int Antiguedad;
+
+  abstract double ObtenerSal(){
+
+  }
+  public boolean mayorQue(){
+
+  }
+  public boolean ganaMas(){
+
+  }
+
+}
+public class EBase extends Empleado {
+  private double salario;
+  private int diasLaborales;
+
+  public void vacacionar(){
+
+  }
+}
+
+public class EComision extends Empleado{
+  private double comision;
+  private double ventas;
+
+  public void pagarBono();
+}
